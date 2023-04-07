@@ -7,7 +7,7 @@ require_once __DIR__ . '/my_classes/SuperUsers.php';
 use my_classes\Users;
 use my_classes\SuperUsers;
 
-$names = ["Oleksandr", "Nikolay", "Daniil", "Evheniy", "Anton", "Mikita", "Sir♂gay"];
+$names = ["Oleksandr", "Nikolay", "Daniil", "Evheniy", "Anton", "Mikita", "Sir♂gay", "Gleb"];
 $surnames = ["V", "Jimin", "Jin", "RM", "Suga", "Jongkook", "J-Hope"];
 
 $user1 = new Users($names[array_rand($names)], $surnames[array_rand($surnames)], "12345");
