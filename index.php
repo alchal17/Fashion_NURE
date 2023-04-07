@@ -18,7 +18,7 @@ $objects = [$user1, $user2, $user3];
 $object1 = clone $user1;
 $object2 = clone $user2;
 $object3 = clone $user3;
-
+//ededdwweeewfewfewfewfe
 $user4 = clone $user1;
 $super_user = new SuperUsers("aaa", "bbbb", "cccc");
 $super_user->character = "admin";
